@@ -7,11 +7,13 @@
      --color-white: #FFFFFF;
      --light-grey-color: #F4F4FD;
      --color-border: #E7E9FC
+     
 }
 body {
      font-family:  "Roboto", sans-serif;
      color: var(--secondary-color);
    background-color: var(--color-white);
+   
           }
 
           /* Reset */
@@ -46,6 +48,7 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+   
 
     
 }
@@ -157,9 +160,20 @@ align-items: center;
  background: var(--primary-color);
  padding-top: 188px; 
  padding-bottom: 188px;
- 
- 
- }
+ background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
+
+ ), url(../images/people-office.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ max-width: 1440px;
+ margin: 0 auto;
+  }
+
+.hero-container .container {
+   
+}
+
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
