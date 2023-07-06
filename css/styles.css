@@ -454,6 +454,21 @@ margin-bottom: 8px;
 
 /* customer */
 
+.customer-list-link {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customer-title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;  
+    margin-bottom: 72px;
+}
+
 .customer-list {
     display: flex;
     justify-content: center;
