@@ -457,7 +457,7 @@ margin-bottom: 8px;
 .customer-list {
     display: flex;
     justify-content: center;
-    gap: 24;
+    gap: 24px;
 }
 
 .customer-link {
