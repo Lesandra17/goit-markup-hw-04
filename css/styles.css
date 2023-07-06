@@ -6,7 +6,9 @@
      --secondary-color:#434455;
      --color-white: #FFFFFF;
      --light-grey-color: #F4F4FD;
-     --color-border: #E7E9FC
+     --color-border: #E7E9FC;
+     --color-bord: #8e8f99;
+    
      
 }
 body {
@@ -450,7 +452,23 @@ margin-bottom: 8px;
     color:var(--secondary-color);}
 
 
+/* customer */
 
+.customer-list {
+    display: flex;
+    justify-content: center;
+    gap: 24;
+}
+
+.customer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168;
+    height: 88;
+    border: 1px solid var(--color-bord);
+
+}
 
 
 
