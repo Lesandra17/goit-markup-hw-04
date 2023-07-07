@@ -234,7 +234,8 @@ align-items: center;
         display: flex;
         gap: 24px;
     }
-    .icon-list {
+    .benefits-icon {
+        display: flex;
         width: 264px;
         height: 112px;
         flex-shrink: 0;
@@ -242,9 +243,8 @@ align-items: center;
         background-color: var(--light-grey-color);
     }
 
-    .benefits-icon {
-        width: 64px;
-        height: 64px;
+    .icon-list {
+        
     }
 .benefits-item {
     flex-direction: column;
