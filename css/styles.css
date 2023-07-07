@@ -387,12 +387,21 @@ align-items: center;
     border-radius: 4px;
 
 }
+.customer-icon {
+    fill: var(--color-bord);
+}
 
 .customer-link:hover,
 .customer-link:focus {
     border-color: var(--color-ocean) ;
     color: var(--color-ocean);
 }
+.customer-link:hover .customer-icon {
+    fill: var(--color-ocean);
+}
+
+
+
 /* footer */
 .footer {
     background-color: var(--primary-color);
@@ -507,10 +516,6 @@ margin-bottom: 8px;
 
 
 
-
-.customer-link:hover .customer-icon {
-    fill: var(--color-ocean);
-}
 
 
 
