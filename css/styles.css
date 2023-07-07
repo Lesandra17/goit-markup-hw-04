@@ -238,13 +238,14 @@ align-items: center;
         display: flex;
         width: 264px;
         height: 112px;
-        flex-shrink: 0;
         border-radius: 4px;
         background-color: var(--light-grey-color);
+        justify-content: center;
+        align-items: center;
     }
 
     .icon-list {
-        
+       
     }
 .benefits-item {
     flex-direction: column;
