@@ -1,7 +1,7 @@
 /* Common styles */
 :root {
      --primary-color:#2E2F42;
-     --color:#4048BF;
+     --color-ocean:#4048BF;
      --color-button:#4D5AE5;
      --secondary-color:#434455;
      --color-white: #FFFFFF;
@@ -233,6 +233,11 @@ align-items: center;
 .benefits-list {  
         display: flex;
         gap: 24px;
+    }
+
+    .benefits-icon {
+        width: 64px;
+        height: 64px;
     }
 .benefits-item {
     flex-direction: column;
@@ -479,10 +484,23 @@ margin-bottom: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 168;
-    height: 88;
+    width: 168px;
+    height: 88px;
+    color: var(--color-bord);
     border: 1px solid var(--color-bord);
+    border-radius: 4px;
 
+}
+
+.customer-link:hover,
+.customer-link:focus {
+    border-color: var(--color-ocean) ;
+    color: var(--color-ocean);
+}
+
+
+.customer-link:hover .customer-icon {
+    fill: var(--color-ocean);
 }
 
 
