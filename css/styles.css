@@ -234,6 +234,13 @@ align-items: center;
         display: flex;
         gap: 24px;
     }
+    .icon-list {
+        width: 264px;
+        height: 112px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background-color: var(--light-grey-color);
+    }
 
     .benefits-icon {
         width: 64px;
