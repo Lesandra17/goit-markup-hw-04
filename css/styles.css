@@ -411,6 +411,10 @@ align-items: center;
 .container-footer {
     margin-right: 120px;
 }
+
+.container .footer-soc {
+    display: flex;
+}
 .footer-link{
     font-size: 18px;
     line-height: 1.17;
@@ -444,7 +448,11 @@ letter-spacing: 0.32px;
 color: var(--color-white);
 }
 .container-soc {
+    
+}
+.soc-footer-list {
     display: flex;
+    gap: 16px;
 }
 
 
