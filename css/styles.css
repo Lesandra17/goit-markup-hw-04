@@ -412,7 +412,7 @@ align-items: center;
     margin-right: 120px;
 }
 
-.footer-soc {
+.container .footer-soc. {
     display: flex;
 }
 .footer-link{
