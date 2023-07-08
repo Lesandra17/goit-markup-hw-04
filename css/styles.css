@@ -2,7 +2,7 @@
 :root {
      --primary-color:#2E2F42;
      --color-ocean:#4048BF;
-     --color-button:#4D5AE5;
+     --color-iris:#4D5AE5;
      --secondary-color:#434455;
      --color-white: #FFFFFF;
      --light-grey-color: #F4F4FD;
@@ -403,7 +403,7 @@ align-items: center;
 
 
 /* footer */
-.container footer-soc {
+ .footer-soc {
     display: flex;
 }
 
@@ -457,7 +457,15 @@ color: var(--color-white);
     display: flex;
     gap: 16px;
 }
-
+.soc-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-iris);
+    border-radius: 50px;
+}
 
 /* Portfolio */
 .portfolio-page {
