@@ -84,7 +84,7 @@ align-items: center;
     letter-spacing: 0.03em;
     font-weight: 800;
     text-transform: uppercase;
-    color:  var(--color-button);
+    color: var(--color-iris);
     font-family: "Raleway", sans-serif;
     margin-right: 76px;
    }
@@ -424,7 +424,7 @@ align-items: center;
     letter-spacing: 0.03em;
     font-weight: 800;
     text-transform: uppercase;
-    color:  var(--color-button);
+    color: var(--color-iris);
     font-family: "Raleway", sans-serif;
     display: inline-block;
     margin-bottom: 16px;
@@ -457,7 +457,7 @@ color: var(--color-white);
     display: flex;
     gap: 16px;
 }
-.soc-link {
+.footer-soc-link {
     display: flex;
     width: 40px;
     height: 40px;
