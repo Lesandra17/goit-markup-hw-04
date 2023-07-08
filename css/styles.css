@@ -408,6 +408,9 @@ align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.container-footer {
+    margin-right: 120px;
+}
 .footer-link{
     font-size: 18px;
     line-height: 1.17;
@@ -430,6 +433,10 @@ align-items: center;
     color: var(--light-grey-color);
     max-width: 264px
 
+}
+
+.container-soc {
+    display: flex;
 }
 
 
