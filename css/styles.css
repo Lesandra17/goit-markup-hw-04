@@ -403,6 +403,10 @@ align-items: center;
 
 
 /* footer */
+.container footer-soc {
+    display: flex;
+}
+
 .footer {
     background-color: var(--primary-color);
     padding-top: 100px;
@@ -412,9 +416,8 @@ align-items: center;
     margin-right: 120px;
 }
 
-.footer-soc {
-    display: flex;
-}
+
+
 .footer-link{
     font-size: 18px;
     line-height: 1.17;
