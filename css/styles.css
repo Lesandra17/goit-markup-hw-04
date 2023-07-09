@@ -358,9 +358,9 @@ align-items: center;
     gap: 16px;
 }
 
-.soc-link {
+.team-soc-link {
     display: flex;
-    width: 40px;
+    width: 26px;
     height: 40px;
     justify-content: center;
     align-items: center;
