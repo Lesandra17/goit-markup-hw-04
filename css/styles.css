@@ -352,6 +352,12 @@ align-items: center;
     text-align: center;
 
 }
+
+.soc-team-list {
+    display: flex;
+    gap: 24px;
+}
+
 .soc-link {
     display: flex;
     width: 40px;
