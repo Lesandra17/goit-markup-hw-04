@@ -355,7 +355,7 @@ align-items: center;
 
 .soc-team-list {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 
 .soc-link {
