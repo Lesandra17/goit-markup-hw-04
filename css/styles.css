@@ -8,6 +8,7 @@
      --light-grey-color: #F4F4FD;
      --color-border: #E7E9FC;
      --color-bord: #8e8f99;
+     --green-color: #31D0AA;
     
      
 }
@@ -480,6 +481,10 @@ color: var(--color-white);
     align-items: center;
     background-color: var(--color-iris);
     border-radius: 50px;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color:var(--green-color) ;
 }
 
 /* Portfolio */
