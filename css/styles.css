@@ -550,12 +550,8 @@ justify-content: center;
 gap: 24px;
 margin-bottom: 72px;
 }
-.button-item {
-  transition:250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); ;  
-}
+
+
 
 .list-button.button {
 font-family: "Roboto", sans-serif;
@@ -568,6 +564,10 @@ background-color: var(--light-grey-color);
 border-radius: 4px; 
 padding: 12px 24px;
 border: 1px solid #e7e9fc;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 
 }
 
@@ -621,16 +621,10 @@ border: 1px solid #e7e9fc;
 transform: translateY(0%);
 }
 
-
-
-
 .services-wrapper {
     position: relative;
     overflow: hidden;
 }
-
-
-
 
 .list-title-servis:hover .overlay-servise {
     transform: translateY(0);
